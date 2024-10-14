@@ -2,6 +2,7 @@
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
 
+
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
@@ -502,9 +503,16 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(min-width: 901px) {
-    .work__image-box {
+    .work__image-box__right {
         flex: 1;
         margin: 0 0 0 10rem;
+    }
+}
+
+@media(min-width: 901px) {
+    .work__image-box__left {
+        flex: 1;
+        margin: 0 10rem 0 0;
     }
 }
 
